@@ -1,0 +1,13 @@
+{
+    "name" : "Test",
+    "manifest_version" : 2,
+    "version" : "0.1",
+    "description" : "Prueba de extension para chrome",
+    "background": 
+    {
+        "persisten" : true,
+        "scripts" : [ "js/background.js" ]
+    },
+    "permissions":[ "contextMenus", "activeTab" ]
+  
+}
